@@ -1,0 +1,131 @@
+body {}
+
+.container {}
+
+.title {
+    text-align: center;
+}
+
+.contents {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.Web, .App {
+    position: relative;
+    width: 20%;
+    padding: 50px 10px;
+    margin: 30px 30px;
+}
+
+.Web {
+    background: #74A2AB;
+}
+
+.App {
+    background: #f7c9c0;
+}
+
+.Web a, .App a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    margin: 0 20px 10px 0;
+    text-decoration: none;
+}
+
+.Web a:hover, .App a:hover {
+    opacity: 0.2;
+    background: #fff;
+}
+
+.contents-sui, .contents-map {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.items {
+    position: relative;
+    width: 80%;
+    padding: 10px 10px 30px 10px;
+    margin: 30px 30px;
+}
+
+.p-area {
+    background: #e4ded6;
+}
+
+.return {
+    text-align: center;
+}
+
+h2 {
+    display: inline-block;
+    border-bottom: solid 2px #000;
+    color: #000;
+}
+
+h3 {
+    font-size: 1.4em;
+}
+
+.contents-sui h3 {
+    display: inline;
+    padding: 0.4em;
+    border-left: solid 10px #74A2AB;
+}
+
+.contents-map h3 {
+    display: inline;
+    padding: 0.4em;
+    border-left: solid 10px #f7c9c0;
+}
+
+h4 {
+    padding: 5px 20px;
+    margin: 0;
+    font-size: 1.2em;
+}
+
+p {
+    padding: 10px 10px;
+    margin: 0;
+}
+
+a p {
+    padding: 5px;
+}
+
+.contents-sui a, .contents-map a {
+    display: inline-block;
+    text-align: center;
+    padding: 1px 15px;
+    margin: 20px 0;
+    font-size: 0.9em;
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+}
+
+.contents-sui a:hover, .contents-map a:hover {
+    opacity: 0.8;
+}
+
+.return a {
+    display: inline-block;
+    text-align: center;
+    padding: 15px 40px;
+    font-size: 1.3em;
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+}
+
+.return a:hover {
+    opacity: 0.8;
+}
