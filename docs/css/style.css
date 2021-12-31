@@ -1,3 +1,13 @@
+.material-icons {
+    font-size: 15px;
+    display: inline-flex;
+    vertical-align: middle;
+}
+
+.material-icons.md-18 {
+    font-size: 18px;
+}
+
 .title {
     text-align: center;
 }
@@ -93,16 +103,12 @@ p {
     margin: 0;
 }
 
-a p {
-    padding: 5px;
-}
-
 .contents-sui a, .contents-map a {
     display: inline-block;
     text-align: center;
-    padding: 1px 15px;
+    padding: 2px 20px;
     margin: 20px 0;
-    font-size: 0.9em;
+    font-size: 17px;
     background: #000;
     color: #fff;
     text-decoration: none;
