@@ -96,6 +96,18 @@ h3 {
     border-left: solid 10px #f7c9c0;
 }
 
+.contents-sui h3 {
+    display: inline;
+    padding: 0.4em;
+    border-left: solid 10px #74A2AB;
+}
+
+.contents-others h3 {
+    display: inline;
+    padding: 0.4em;
+    border-left: solid 10px #eeda99;
+}
+
 h4 {
     padding: 5px 20px;
     margin: 0;
@@ -107,7 +119,7 @@ p {
     margin: 0;
 }
 
-.contents-sui a, .contents-map a {
+.contents-sui a, .contents-map a, .contents-others a{
     display: inline-block;
     text-align: center;
     padding: 2px 20px;
@@ -118,7 +130,7 @@ p {
     text-decoration: none;
 }
 
-.contents-sui a:hover, .contents-map a:hover {
+.contents-sui a:hover, .contents-map a:hover, .contents-others a:hover {
     opacity: 0.8;
 }
 
