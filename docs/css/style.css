@@ -38,7 +38,7 @@
     background: #eeda99;
 }
 
-.Web a, .App a, .Others a{
+.Web a, .App a, .Others a {
     position: absolute;
     top: 0;
     left: 0;
@@ -53,7 +53,7 @@
     background: #fff;
 }
 
-.contents-sui, .contents-map {
+.contents-sui, .contents-map, .contents-others {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
