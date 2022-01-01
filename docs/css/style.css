@@ -19,7 +19,7 @@
     text-align: center;
 }
 
-.Web, .App {
+.Web, .App, .Others {
     position: relative;
     width: 20%;
     padding: 50px 10px;
@@ -34,7 +34,11 @@
     background: #f7c9c0;
 }
 
-.Web a, .App a {
+.Others {
+    background: #eeda99;
+}
+
+.Web a, .App a, .Others a{
     position: absolute;
     top: 0;
     left: 0;
@@ -44,7 +48,7 @@
     text-decoration: none;
 }
 
-.Web a:hover, .App a:hover {
+.Web a:hover, .App a:hover, .Others a:hover {
     opacity: 0.2;
     background: #fff;
 }
