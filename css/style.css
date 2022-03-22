@@ -27,6 +27,17 @@ header {
     text-align: center;
 }
 
+.link a{
+    padding: 0 10px;
+    margin: 5px 10px;
+    color: #494545;
+    text-decoration: none;
+}
+
+.link a:hover {
+    opacity: 0.8;
+}
+
 .content {
     display: flex;
     flex-flow: column;
